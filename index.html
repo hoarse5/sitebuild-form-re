@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Sitebuild</title>
+</head>
+
+<body>
+    <main>
+        <div class="hamburger flex items-center justify-center top-4 absolute right-4 text-white rounded-full md:h-20 md:w-20 h-14 w-14">
+            <div class="px-4 cursor-pointer">
+                <svg class="w-10 h-10 md:w-14 md:h-14 fill-current" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="none" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </div>
+        </div>
+        <div class="container flex flex-col justify-center items-center  ">
+            <div class="form flex flex-col justify-center justify-evenly mt-64">
+                <div class="mb-4">
+                    <h1 class="text-right font-bold text-2xl 
+                    md:text-center md:text-3xl">Jelentkezés</h1>
+                </div>
+                <input type="text" name="text" placeholder="Név" class=" 
+                placeholder-green-500 py-4 px-6 border-2 border-green-500 mb-6">
+                <input type="email" name="email" placeholder="E-mail-cím" class=" 
+                placeholder-green-500 py-4 px-6 border-2 border-green-500 mb-6">
+                <input type="tel" name="tel" placeholder="Telefonszám" class=" 
+                placeholder-green-500 py-4 px-6 border-2 border-green-500 mb-6">
+                <div class="mb-8">
+                    <input type="checkbox" name="checkbox" id="checkbox" class=" 
+                    placeholder-green-500 py-2 px-2 border-2 border-gray-400">
+                    <label for="checkbox" class="text-lg"> Elolvastam és elfogadom az <span class="underline">Adatkezelési Tájékoztatót.</span></label>
+                </div>
+                <div class="flex justify-center mb-12">
+                    <button class="btn uppercase 
+    text-white border-2 border-white
+     px-5 py-6 w-64  items-center tracking-widest">elküld</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>

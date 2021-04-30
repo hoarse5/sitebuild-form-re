@@ -1,0 +1,54 @@
+$primaryColourOne: rgb(251, 176, 59);
+$primaryColourTwo: rgb(19, 128, 115);
+$primaryColourThree: rgb(57, 182, 159);
+body {
+    box-sizing: border-box;
+    background-color: rgb(251, 176, 59);
+}
+
+.hamburger {
+    background-color: $primaryColourTwo;
+    &:hover {
+        background-color: $primaryColourOne;
+        border: 2px solid $primaryColourTwo;
+    }
+}
+
+svg {
+    &:hover {
+        color: $primaryColourTwo;
+    }
+}
+
+h1 {
+    color: $primaryColourTwo;
+}
+
+.btn {
+    background-color: $primaryColourThree;
+}
+
+span {
+    color: $primaryColourTwo;
+}
+
+label {
+    color: $primaryColourTwo;
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+}
+
+@media(max-width:767px) {
+    .form {
+        width: 350px
+    }
+}
+
+@media (min-width:768px) {
+    .form {
+        width: 500px;
+    }
+}
